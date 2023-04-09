@@ -1,0 +1,19 @@
+{
+  "name": "chat_gen2",
+  "version": "1.0.0",
+  "description": "I want you to act as a code generator. You will produce code in javascript to run on a nodejs back end. The application will include a rest api. I will ask you to produce modules with a specific purpose and I will integrate these in my editor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "jest": "^29.5.0",
+    "sqlite3": "^5.1.6",
+    "supertest": "^6.3.3"
+  }
+}
